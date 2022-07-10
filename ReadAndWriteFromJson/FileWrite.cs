@@ -9,9 +9,9 @@ namespace AddressBookSystemDay23
 {
     internal class FileWrite
     {
-        public static string path = @"G:\FellowShip517\Dya23_CollectionAddressBook\Day23_AddressBookCollections\CollectinAddressBook\AddressBookFile.txt";
-        public static string csvPath = @"G:\FellowShip517\Dya23_CollectionAddressBook\Day23_AddressBookCollections\CollectinAddressBook\CSV_AddressBook.csv";
-        public static string jsonPath = @"G:\FellowShip517\Dya23_CollectionAddressBook\Day23_AddressBookCollections\CollectinAddressBook\JSON_AddressBook.json";
+        public static string path = @"D:\dotnet\AddressBookSystemDay23AddressBookFile.txt";
+        public static string csvPath = @"D:\dotnet\CSVFileForAddressBook.csv";
+        public static string jsonPath = @"D:\dotnet\JSON_AddressBook.json";
         public static void WriteUsingStreamWriter(List<Contact> data)
         {
 
